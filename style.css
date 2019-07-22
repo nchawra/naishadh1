@@ -1,0 +1,77 @@
+body{
+    background-color: black;
+}
+
+div{
+    margin-left: 150px;
+    margin-top: 200px;
+}
+
+div span{
+    color: white;
+    margin: 25px;
+    font-size: 40px;
+    display: inline-block;
+    animation: span 0.7s infinite linear;
+
+}
+
+@keyframes span {
+
+
+    0%{
+        transform: translateY(0%);
+    }
+
+    50%{
+      transform: translateY(100%);
+    }
+    100%{
+        transform: translateY(0%);
+    }
+
+}
+
+div span:nth-child(1){
+    background-color: orange;
+    padding: 14px 25px;
+    border-radius: 20px;
+    animation-delay: 0.1s;
+
+}
+div span:nth-child(2){
+    background-color: green;
+    padding: 14px 25px;
+    border-radius: 20px;
+    animation-delay: 0.2s;
+}
+div span:nth-child(3){
+    background-color: blue;
+    padding: 14px 25px;
+    border-radius: 20px;
+    animation-delay: 0.3s;
+}
+div span:nth-child(4){
+    background-color: red;
+    padding: 14px 25px;
+    border-radius: 20px;
+    animation-delay: 0.4s;
+}
+div span:nth-child(5){
+    background-color: pink;
+    padding: 14px 25px;
+    border-radius: 20px;
+    animation-delay: 0.5s;
+}
+div span:nth-child(6){
+    background-color: lightcoral;
+    padding: 14px 25px;
+    border-radius: 20px;
+    animation-delay: 0.6s;
+}
+div span:nth-child(7){
+    background-color: olive;
+    padding: 14px 25px;
+    border-radius: 20px;
+    animation-delay: 0.7s;
+}
